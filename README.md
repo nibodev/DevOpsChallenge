@@ -1,5 +1,11 @@
 # Nibo DevOps Challenge
 
+Bem vindo, recruta. Precisamos saber se você está apto a trabalhar conosco. São dois os objetivos deste desafio:
+
+Vamos testar o quanto você conhece dos assuntos básicos que faz parte do dia-a-dia de um DevOps. Precisamos de alguém com cohecimentos gerais em C# .NET, GIT, CD, CI e Infra. A palavra "automatização" é a chave para seu sucesso.
+
+Também vamos testar o seu potencial de aprendizado. Provavelmente você precisará pesquisar bastante para chegar a um bom resultado. 
+
 ### Você irá precisar de:
 
 + Máquina Windows
@@ -13,15 +19,14 @@ Todas as contas podem ser criadas e os pacotes baixados gratuitamente.
 
 Você também poderá instalar o Git CLI e Azure CLI via NPM:
 
-`npm install -g git-cli`
-`npm install -g azure-cli`
+`npm install -g git-cli` `npm install -g azure-cli`
 
 ## First step: build the project
 
-A sua primeira missão é muito simples: fazer o projeto rodar. Para isso você precisará:
+A sua primeira missão é muito simples: fazer o projeto rodar. Para isso você precisará seguir os seguintes passos:
 
-1. Clonar este projeto do Github em sua máquina
-2. Abrir no Visual Studio, tentar buildar
+1. Clone este projeto do Github em sua máquina
+2. Abra no Visual Studio, tente "buildar"
 
 Vish... Deu algum problema? Então... faça funcionar.
 
@@ -29,9 +34,27 @@ Vish... Deu algum problema? Então... faça funcionar.
 
 A sua segunda missão é versionar o projeto corrigido e colocá-lo no ar.
 
-1. Versione o projeto com a sua correção em um repositório novo em sua conta Github.
-2. Crie um WebApp no Azure com um nome qualquer. 
-3. Faça o deploy do projeto neste novo WebApp. 
+1. Versione o projeto com a sua correção em um repositório novo em sua conta Github
+2. Crie um WebApp no Azure com um nome qualquer
+3. Faça o deploy do projeto neste novo WebApp.
+4. Verifique se o projeto está no ar
 
 Não se esqueça de versionar tudo, incluindo este Readme.md e o .gitignore.
 Você poderá fazer o deploy da maneira que mais achar conveniente. Porém dê preferência ao deploy via linha de comando utilizando o Powershell ou o Azure CLI. Isto facilitará o próximo passo.
+
+## Third step: Deployment script
+
+Nesta missão você deverá criar um script para automatizar todo o processo da segunda etapa. Este script poderá ser um `.bat`, contendo as instruções usando `git-cli` e `azure-cli` ou um `.ps1`, com todas as instruções a serem executadas no Powershell.
+
+O seu supervisor irá executar este script de uma máquina Windows (já com git ou outras dependências instaladas). Então não há problema caso o seu script exija a digitação de informações como login ou outros dados que achar necessário. 
+
+
+## Finally
+
+Ao finalizar o desafio, você deverá enviar para o email dev@nibo.com.br as seguintes informações:
+
++ A URL do repositório no Github
++ O script de deploy criado no passo 3
++ A URL do projeto publicado no Azure
+
+**Boa sorte.**
