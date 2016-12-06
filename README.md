@@ -52,7 +52,7 @@ Resumindo, o seu script deverá se encarregar de:
 
 1. Pedir autenticação no Azure
 2. Criar um novo WebApp no Azure, com um nome qualquer
-3. Publicar o projeto que está versionado no Github 
+3. Publicar o projeto que está versionado no Github neste novo WebApp
 
 ## Fourth step: CD
 
