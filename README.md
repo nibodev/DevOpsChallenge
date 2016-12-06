@@ -56,7 +56,7 @@ Resumindo, o seu script deverá se encarregar de:
 
 ## Fourth step: CD
 
-O último passo é colocar o WebApp configurado para o dpeloy contínuo. Na prática o que deverá ocorrer é o seguinte: ao realizar um commit no seu repositório do Github, o Azure deverá pegar as alterações e publicar automaticamente no WebApp.  Moleza ;)
+O último passo é colocar o WebApp configurado para o deploy contínuo. Na prática o que deverá ocorrer é o seguinte: ao realizar um commit no seu repositório do Github, o Azure deverá pegar as alterações e publicar automaticamente no WebApp.  Moleza ;)
 
 ## Finally
 
