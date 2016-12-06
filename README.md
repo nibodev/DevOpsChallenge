@@ -48,6 +48,15 @@ Nesta missão você deverá criar um script para automatizar todo o processo da 
 
 O seu supervisor irá executar este script de uma máquina Windows (já com git ou outras dependências instaladas). Então não há problema caso o seu script exija a digitação de informações como login ou outros dados que achar necessário. 
 
+Resumindo, o seu script deverá se encarregar de:
+
+1. Pedir autenticação no Azure
+2. Criar um novo WebApp no Azure, com um nome qualquer
+3. Publicar o projeto que está versionado no Github 
+
+## Fourth step: CD
+
+O último passo é colocar o WebApp configurado para o dpeloy contínuo. Na prática o que deverá ocorrer é o seguinte: ao realizar um commit no seu repositório do Github, o Azure deverá pegar as alterações e publicar automaticamente no WebApp.  Moleza ;)
 
 ## Finally
 
@@ -56,5 +65,7 @@ Ao finalizar o desafio, você deverá enviar para o email dev@nibo.com.br as seg
 + A URL do repositório no Github
 + O script de deploy criado no passo 3
 + A URL do projeto publicado no Azure
+
+Se você possuir qualquer dúvida em alguma parte do processo, mande um email para dev@nibo.com.br que iremos te responder. Ou entre em contato conosco via chat acessando: www.nibo.com.br
 
 **Boa sorte.**
