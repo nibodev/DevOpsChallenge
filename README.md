@@ -23,13 +23,12 @@ A equipe de Produto e Tecnologia do Nibo é composta por times multifuncionais, 
 
 ## O desafio
 
-Vamos testar o quanto você conhece dos assuntos básicos que faz parte do dia-a-dia de um DevOps. Precisamos de alguém com cohecimentos gerais em C# .NET, GIT, CD, CI e Infra. A palavra "automatização" é a chave para seu sucesso.
+Vamos testar o quanto você conhece dos assuntos básicos que faz parte do dia-a-dia de um DevOps. Precisamos de alguém com cohecimentos gerais em C# .NET, GIT, CD, CI e Ambiente Cloud. A palavra "automatização" é a chave para seu sucesso.
 
 Também vamos testar o seu potencial de aprendizado. Provavelmente você precisará pesquisar bastante para chegar a um bom resultado. 
 
 ### Você irá precisar de:
 
-+ Máquina Windows
 + Visual Studio [download](https://www.visualstudio.com/pt-br/downloads/)
 + Conta no Azure [crie aqui](https://azure.microsoft.com/pt-br/free/)
 + Conta no Github [crie aqui](https://github.com/join?source=header-home)
@@ -75,11 +74,13 @@ Resumindo, o seu script deverá se encarregar de:
 2. Criar um novo WebApp no Azure, com um nome qualquer
 3. Publicar o projeto que está versionado no Github neste novo WebApp
 
-## Fourth step: CD
+## Deploy contínuo
 
-O último passo é colocar o WebApp configurado para o deploy contínuo. Na prática o que deverá ocorrer é o seguinte: ao realizar um commit no seu repositório do Github, o Azure deverá pegar as alterações e publicar automaticamente no WebApp.  Moleza ;)
+Nesta simples e última etapa você deverá configurar o Deploy Contínuo para este seu fork. Desta forma, qualquer alteração realizada neste projeto, um processo de build e de deploy deverá ser iniciado, possibilitando assim a visualização das alterações no Web App do Azure criado por você.
 
-## Finally
+## Envio da solução
+Você deverá criar um fork deste repositório, incluir o seu script na pasta ``SCRIPTS``,  preencher o formulário "_about/Profile.md" e enviar para recruta.tech@nibo.com.br o link do seu fork.
+
 
 Ao finalizar o desafio, você deverá enviar para o email dev@nibo.com.br as seguintes informações:
 
@@ -87,6 +88,9 @@ Ao finalizar o desafio, você deverá enviar para o email dev@nibo.com.br as seg
 + O script de deploy criado no passo 3
 + A URL do projeto publicado no Azure
 
-Se você possuir qualquer dúvida em alguma parte do processo, mande um email para dev@nibo.com.br que iremos te responder. Ou entre em contato conosco via chat acessando: www.nibo.com.br
+Tenha capricho com o resultado final. Essa é a sua chance de entrar para o melhor time, na startup que mais cresce no Brasil.
 
-**Boa sorte.**
+**NIBO - Desenvolvimento de alta performance para geeks inquietos**
+
+Boa sorte :D
+
