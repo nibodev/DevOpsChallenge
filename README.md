@@ -6,7 +6,7 @@
 
 Olá!
 
-Primeiramente, parabéns por ter avançado ao Desafio para Developers do Nibo! 
+Primeiramente, parabéns por ter avançado ao Desafio para DevOps do Nibo! 
 
 ## Quem somos
 O Nibo nasceu em 2012 com uma missão muito clara: ajudar empresas a gerir suas finanças de forma simples e responsável. Ao longo dos anos, percebemos que a única forma de alcançar esse objetivo seria com a ajuda de uma figura bastante esquecida no imaginário brasileiro - **contador**.
