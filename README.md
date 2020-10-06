@@ -1,6 +1,27 @@
-# Nibo DevOps Challenge
+<p align="center"><img src="https://www.nibo.com.br/logo-nibo.png" width="150" /></p>
+<h1 align="center">Nibo Full-Stack Developers Challenge - Level 2</h1>
 
-Bem vindo, recruta. Precisamos saber se você está apto a trabalhar conosco. São dois os objetivos deste desafio:
+
+<p align="center">Quer saber o por que vale a pena trabalhar no Nibo? <a href="https://tech.nibo.com.br">tech.nibo.com.br</a></p>
+
+Olá!
+
+Primeiramente, parabéns por ter avançado ao Desafio para Developers do Nibo! 
+
+## Quem somos
+O Nibo nasceu em 2012 com uma missão muito clara: ajudar empresas a gerir suas finanças de forma simples e responsável. Ao longo dos anos, percebemos que a única forma de alcançar esse objetivo seria com a ajuda de uma figura bastante esquecida no imaginário brasileiro - **contador**.
+
+Aqui no Nibo, não enxergamos o contador como o um "mal necessário", mas sim como **cientista da riqueza** - a pessoa com os poderes de ajudar seus clientes a prosperarem e alcançarem o sucesso. 
+
+Traduzimos esse pensamento no nosso manifesto, que nunca deixamos de recitar: 
+> Todos os dias, 2000 empresas morrem no Brasil. Empresários precisam de ajuda. Bons contadores são a solução.
+
+Sendo assim, nosso papel é fornecer as ferramentas que aumentem a produtividade e efetividade do contador, de modo que ele tenha tempo para o que realmente importa: ser consultivo e entregar insights valiosos ao seu cliente.
+
+A equipe de Produto e Tecnologia do Nibo é composta por times multifuncionais, com autonomia na tomada de decisão. São as famosas **squads**. Não sabe o que é squad? Assista ao vídeo [Spotify Engineering Culture](https://www.youtube.com/watch?v=hQDblYvY9RY). 
+
+
+## O desafio
 
 Vamos testar o quanto você conhece dos assuntos básicos que faz parte do dia-a-dia de um DevOps. Precisamos de alguém com cohecimentos gerais em C# .NET, GIT, CD, CI e Infra. A palavra "automatização" é a chave para seu sucesso.
 
