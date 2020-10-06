@@ -1,5 +1,5 @@
 <p align="center"><img src="https://www.nibo.com.br/logo-nibo.png" width="150" /></p>
-<h1 align="center">Nibo Full-Stack Developers Challenge - Level 2</h1>
+<h1 align="center">Nibo Full-Stack DevOps Challenge - Level 1</h1>
 
 
 <p align="center">Quer saber o por que vale a pena trabalhar no Nibo? <a href="https://tech.nibo.com.br">tech.nibo.com.br</a></p>
