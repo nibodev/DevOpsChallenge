@@ -81,13 +81,6 @@ Nesta simples e última etapa você deverá configurar o Deploy Contínuo para e
 ## Envio da solução
 Você deverá criar um fork deste repositório, incluir o seu script na pasta ``SCRIPTS``,  preencher o formulário "_about/Profile.md" e enviar para recruta.tech@nibo.com.br o link do seu fork.
 
-
-Ao finalizar o desafio, você deverá enviar para o email dev@nibo.com.br as seguintes informações:
-
-+ A URL do repositório no Github
-+ O script de deploy criado no passo 3
-+ A URL do projeto publicado no Azure
-
 Tenha capricho com o resultado final. Essa é a sua chance de entrar para o melhor time, na startup que mais cresce no Brasil.
 
 **NIBO - Desenvolvimento de alta performance para geeks inquietos**
