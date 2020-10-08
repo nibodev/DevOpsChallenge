@@ -37,7 +37,7 @@ Você deverá criar um fork deste repositório e utilizar o projeto contido na p
 
 ### Atividades extras:
 - [ ] Configurar um endpoint na aplicação para servir como Healthcheck e configurar este endpoint no Azure para geração de estatísticas de disponibilidade.
-- [ ] Colocar a aplicação em containers e utilizar o Azure Kubernetes
+- [ ] Colocar a aplicação em um Docker container
 
 
 ## Envio da solução
