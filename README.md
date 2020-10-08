@@ -33,7 +33,8 @@ Você deverá criar um fork deste repositório e utilizar o projeto contido na p
 - [ ] Configurar pipeline para integração e deploy contínuo usando o Github Actions ou [Azure DevOps](https://azure.microsoft.com/en-us/services/devops/)
     - Uma das etapas obrigatórias deve rodar os testes unitários
     - O deploy deve ser realizado automaticamente no ambiente de testes e no ambiente de produção, seguindo o [Github Flow](https://guides.github.com/introduction/flow/)
-    - O deploy deverá ser feito na sua conta Azure nos ambientes que você criou
+    - O deploy deverá ser feito na sua conta Azure nos ambientes que você criou\
+- [ ] Criar um arquivo chamado `howto.md` explicando o que e como foi feito, além das URLs e instruções de como verificar o resultado
 
 ### Atividades extras:
 - [ ] Configurar um endpoint na aplicação para servir como Healthcheck e configurar este endpoint no Azure para geração de estatísticas de disponibilidade.
@@ -41,7 +42,7 @@ Você deverá criar um fork deste repositório e utilizar o projeto contido na p
 
 
 ## Envio da solução
-Você deverá criar um fork deste repositório, incluir os scripts `.yml` e enviar para recruta.tech@nibo.com.br o link do seu fork. Lembre-se de não versionar qualquer chave de acesso.
+Você deverá criar um fork deste repositório, incluir os scripts `.yml` e enviar para recruta.tech@nibo.com.br o link do seu fork. Lembre-se de não versionar qualquer chave de acesso. Se for necessário, envie essas chaves junto com o e-mail.
 
 Tenha capricho com o resultado final. Essa é a sua chance de entrar para o melhor time, na startup que mais cresce no Brasil.
 
