@@ -2,7 +2,7 @@
 
 namespace XUnit.Project
 {
-    [TestCaseOrderer("XUnit.Project.Orderers.AlphabeticalOrderer", "XUnit.Tests")]
+    [TestCaseOrderer("XUnit.Project.Orderers.AlphabeticalOrderer", "Tests.XUnit")]
     public class ByAlphabeticalOrder
     {
         public static bool Test1Called = false;
