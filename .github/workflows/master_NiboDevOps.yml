@@ -23,7 +23,7 @@ jobs:
         include-prerelease: true
 
     - name: Build with dotnet
-      run: dotnet build --source /src/MyWebApp/MyWebApp.csproj --configuration Release
+      run: dotnet build --project ./NiboDevOps/src/MyWebApp/MyWebApp.csproj --configuration Release
 
     - name: dotnet publish
       run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
