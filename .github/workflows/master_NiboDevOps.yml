@@ -51,7 +51,7 @@ jobs:
       id: deploy-to-webapp
       uses: azure/webapps-deploy@v2
       with:
-        app-name: 'NiboDevOps'
+        app-name: 'MyWebApp'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_c0f76ce4e20b40faa2d43ca1efe37398 }}
         package: .
