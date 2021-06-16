@@ -20,9 +20,9 @@ jobs:
         command: publish
         publishWebProjects: false
         projects: '**/*.csproj'
-       arguments: '-o testpath'
-       zipAfterPublish: false
-       modifyOutputPath: true
+        arguments: '-o testpath'
+        zipAfterPublish: false
+        modifyOutputPath: true
        
     - name: 'Checkout Github Action'
       uses: actions/checkout@master
