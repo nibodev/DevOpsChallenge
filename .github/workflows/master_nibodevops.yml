@@ -1,0 +1,40 @@
+# Docs for the Azure Web Apps Deploy action: https://go.microsoft.com/fwlink/?linkid=2134798
+# More GitHub Actions for Azure: https://go.microsoft.com/fwlink/?linkid=2135048
+
+name: Azure App Service - NiboDevOps(Production), Build and deploy DotnetCore app
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    # checkout the repo      
+    - name: 'Checkout Github Action'
+      uses: actions/checkout@master
+
+
+    - name: Set up .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '3.1.301'
+
+    - name: Build with dotnet
+      run: dotnet build --configuration Release ./src/MyWebApp/
+
+    - name: dotnet publish
+     #run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/src/MyWebApp/
+      run: dotnet publish --configuration Release ./src/MyWebApp/
+      
+    - name: Run Azure webapp deploy action using publish profile credentials
+      uses: azure/webapps-deploy@v2
+      with:
+        app-name: NiboDevOps
+        slot-name: Production
+        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FA93CC25D1C645708B6AC9AE295FCD41 }}
+        package: ${{env.DOTNET_ROOT}}/src
+
