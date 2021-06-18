@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy ASP.Net Core app to Azure Web App - NiboDevOps
+name: Build and deploy ASP.Net Core app to Azure Web App - webmyapp
 
 on:
   push:
@@ -23,10 +23,10 @@ jobs:
         include-prerelease: true
 
     - name: Build with dotnet
-      run: dotnet build --configuration Release
+      run: dotnet build --configuration Release ./src/
 
     - name: dotnet publish
-      run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
+      run: dotnet publish -c Release ./src/ -o ${{env.DOTNET_ROOT}}/myapp
 
     - name: Upload artifact for deployment job
       uses: actions/upload-artifact@v2
@@ -45,13 +45,18 @@ jobs:
     - name: Download artifact from build job
       uses: actions/download-artifact@v2
       with:
-        name: .net-app
-
+         name: .net-app
+         
+    - name: Azure Login
+      uses: azure/login@v1.1
+      with:
+        creds: ${{ secrets.AZURE_DEPLOY }}
+          
     - name: Deploy to Azure Web App
       id: deploy-to-webapp
       uses: azure/webapps-deploy@v2
       with:
-        app-name: 'NiboDevOps'
+        app-name: 'webmyapp'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_d3bb29b1e04140f39c468d41e20c1f7a }}
-        package: .
+        #publish-profile: ${{ secrets.AZURE_DEPLOY }}
+        #package: webmyapp.zip
